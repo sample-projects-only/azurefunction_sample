@@ -8,7 +8,7 @@
 			"problemMatcher": "$func-java-watch",
 			"isBackground": true,
 			"options": {
-				"cwd": "${workspaceFolder}/target/azure-functions/azurefunction_sample-1711905218201"
+				"cwd": "${workspaceFolder}/target/azure-functions/azurefunction_sample-1714273900171"
 			},
 			"dependsOn": "package (functions)"
 		},

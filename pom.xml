@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.function.njain50</groupId>
+    <groupId>com.function</groupId>
     <artifactId>azurefunction_sample</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -11,10 +11,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <azure.functions.maven.plugin.version>1.32.0</azure.functions.maven.plugin.version>
         <azure.functions.java.library.version>3.1.0</azure.functions.java.library.version>
-        <functionAppName>azurefunction_sample-1711905218201</functionAppName>
+        <functionAppName>azurefunction_sample-1714273900171</functionAppName>
     </properties>
 
     <dependencies>
@@ -74,7 +74,7 @@
                     <runtime>
                         <!-- runtime os, could be windows, linux or docker-->
                         <os>windows</os>
-                        <javaVersion>11</javaVersion>
+                        <javaVersion>17</javaVersion>
                     </runtime>
                     <appSettings>
                         <property>

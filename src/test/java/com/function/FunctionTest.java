@@ -1,4 +1,4 @@
-package com.function.njain50;
+package com.function;
 
 import com.microsoft.azure.functions.*;
 import org.mockito.invocation.InvocationOnMock;
